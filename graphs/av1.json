@@ -1,0 +1,406 @@
+{
+    "order": 33,
+    "size": 100,
+    "isDirectioned": false,
+    "isValored": true,
+    "graph": {
+        "GIG": {
+            "name": "GIG",
+            "entry": {},
+            "exit": {
+                "MAO": 247,
+                "BEL": 221,
+                "SLZ": 208,
+                "FOR": 203,
+                "NAT": 196,
+                "REC": 182,
+                "CGB": 163,
+                "SSA": 140,
+                "CGR": 139,
+                "POA": 134,
+                "GYN": 121,
+                "FLN": 110,
+                "CWB": 104,
+                "RAO": 93,
+                "VIX": 88,
+                "VCP": 86,
+                "CNF": 84,
+                "CGH": 83,
+                "GRU": 82
+            }
+        },
+        "GRU": {
+            "name": "GRU",
+            "entry": {},
+            "exit": {
+                "MAO": 238,
+                "BEL": 222,
+                "FOR": 214,
+                "SLZ": 213,
+                "NAT": 211,
+                "JPA": 204,
+                "REC": 198,
+                "THE": 197,
+                "MCZ": 186,
+                "AJU": 172,
+                "SSA": 155,
+                "CGB": 148,
+                "IOS": 141,
+                "BPS": 132,
+                "CGR": 119,
+                "POA": 117,
+                "BSB": 116,
+                "IGU": 116,
+                "GYN": 113,
+                "VIX": 108,
+                "MGF": 97,
+                "UDI": 95,
+                "FLN": 94,
+                "CNF": 92,
+                "PLU": 91,
+                "LDB": 91,
+                "CWB": 83,
+                "SDU": 83,
+                "GIG": 82,
+                "RAO": 79
+            }
+        },
+        "VCP": {
+            "name": "VCP",
+            "entry": {},
+            "exit": {
+                "MAO": 232,
+                "FOR": 213,
+                "REC": 199,
+                "SSA": 156,
+                "CGB": 142,
+                "POA": 118,
+                "BSB": 112,
+                "CNF": 93,
+                "SDU": 87,
+                "GIG": 86,
+                "CWB": 83
+            }
+        },
+        "CNF": {
+            "name": "CNF",
+            "entry": {},
+            "exit": {
+                "MAO": 227,
+                "BEL": 197,
+                "FOR": 182,
+                "REC": 166,
+                "POA": 149,
+                "CGB": 149,
+                "SSA": 123,
+                "CWB": 116,
+                "BSB": 99,
+                "CGH": 94,
+                "VCP": 93,
+                "GRU": 92,
+                "SDU": 85,
+                "GIG": 84
+            }
+        },
+        "FOR": {
+            "name": "FOR",
+            "entry": {},
+            "exit": {
+                "MAO": 217,
+                "GRU": 214,
+                "VCP": 213,
+                "GIG": 203,
+                "CNF": 182,
+                "BSB": 171,
+                "SSA": 127
+            }
+        },
+        "BSB": {
+            "name": "BSB",
+            "entry": {},
+            "exit": {
+                "MAO": 188,
+                "NAT": 176,
+                "FOR": 171,
+                "REC": 169,
+                "BEL": 166,
+                "POA": 166,
+                "SLZ": 161,
+                "FLN": 146,
+                "SSA": 131,
+                "CWB": 131,
+                "VIX": 122,
+                "SDU": 121,
+                "CGH": 118,
+                "CGB": 118,
+                "CGR": 118,
+                "GRU": 116,
+                "VCP": 112,
+                "CNF": 99,
+                "RAO": 98,
+                "GYN": 71
+            }
+        },
+        "SSA": {
+            "name": "SSA",
+            "entry": {},
+            "exit": {
+                "CWB": 179,
+                "CGH": 157,
+                "VCP": 156,
+                "GRU": 155,
+                "SDU": 140,
+                "GIG": 140,
+                "BSB": 131,
+                "FOR": 127,
+                "CNF": 123,
+                "REC": 103
+            }
+        },
+        "CGH": {
+            "name": "CGH",
+            "entry": {},
+            "exit": {
+                "SSA": 157,
+                "CGB": 148,
+                "BSB": 118,
+                "POA": 115,
+                "CNF": 94,
+                "SDU": 84,
+                "GIG": 83,
+                "CWB": 82
+            }
+        },
+        "BEL": {
+            "name": "BEL",
+            "entry": {},
+            "exit": {
+                "GRU": 222,
+                "GIG": 221,
+                "CNF": 197,
+                "BSB": 166,
+                "MAO": 145
+            }
+        },
+        "POA": {
+            "name": "POA",
+            "entry": {},
+            "exit": {
+                "BSB": 166,
+                "CNF": 149,
+                "GIG": 134,
+                "SDU": 134,
+                "VCP": 118,
+                "GRU": 117,
+                "CGH": 115,
+                "CWB": 95
+            }
+        },
+        "CWB": {
+            "name": "CWB",
+            "entry": {},
+            "exit": {
+                "SSA": 179,
+                "BSB": 131,
+                "CNF": 116,
+                "GIG": 104,
+                "SDU": 104,
+                "POA": 95,
+                "GRU": 83,
+                "VCP": 83,
+                "CGH": 82
+            }
+        },
+        "MAO": {
+            "name": "MAO",
+            "entry": {},
+            "exit": {
+                "GIG": 247,
+                "GRU": 238,
+                "VCP": 232,
+                "CNF": 227,
+                "FOR": 217,
+                "BSB": 188,
+                "BEL": 145
+            }
+        },
+        "SLZ": {
+            "name": "SLZ",
+            "entry": {},
+            "exit": {
+                "GRU": 213,
+                "GIG": 208,
+                "BSB": 161
+            }
+        },
+        "NAT": {
+            "name": "NAT",
+            "entry": {},
+            "exit": {
+                "GRU": 211,
+                "GIG": 196,
+                "BSB": 176
+            }
+        },
+        "JPA": {
+            "name": "JPA",
+            "entry": {},
+            "exit": {
+                "GRU": 204
+            }
+        },
+        "REC": {
+            "name": "REC",
+            "entry": {},
+            "exit": {
+                "VCP": 199,
+                "GRU": 198,
+                "GIG": 182,
+                "BSB": 169,
+                "CNF": 166,
+                "SSA": 103
+            }
+        },
+        "THE": {
+            "name": "THE",
+            "entry": {},
+            "exit": {
+                "GRU": 197
+            }
+        },
+        "MCZ": {
+            "name": "MCZ",
+            "entry": {},
+            "exit": {
+                "GRU": 186
+            }
+        },
+        "AJU": {
+            "name": "AJU",
+            "entry": {},
+            "exit": {
+                "GRU": 172
+            }
+        },
+        "CGB": {
+            "name": "CGB",
+            "entry": {},
+            "exit": {
+                "GIG": 163,
+                "CNF": 149,
+                "GRU": 148,
+                "CGH": 148,
+                "VCP": 142,
+                "BSB": 118
+            }
+        },
+        "FLN": {
+            "name": "FLN",
+            "entry": {},
+            "exit": {
+                "BSB": 146,
+                "GIG": 110,
+                "GRU": 94
+            }
+        },
+        "IOS": {
+            "name": "IOS",
+            "entry": {},
+            "exit": {
+                "GRU": 141
+            }
+        },
+        "SDU": {
+            "name": "SDU",
+            "entry": {},
+            "exit": {
+                "SSA": 140,
+                "POA": 134,
+                "BSB": 121,
+                "CWB": 104,
+                "VCP": 87,
+                "CNF": 85,
+                "CGH": 84,
+                "GRU": 83
+            }
+        },
+        "BPS": {
+            "name": "BPS",
+            "entry": {},
+            "exit": {
+                "GRU": 132
+            }
+        },
+        "VIX": {
+            "name": "VIX",
+            "entry": {},
+            "exit": {
+                "BSB": 122,
+                "GRU": 108,
+                "GIG": 88
+            }
+        },
+        "GYN": {
+            "name": "GYN",
+            "entry": {},
+            "exit": {
+                "GIG": 121,
+                "GRU": 113,
+                "BSB": 71
+            }
+        },
+        "CGR": {
+            "name": "CGR",
+            "entry": {},
+            "exit": {
+                "GIG": 139,
+                "GRU": 119,
+                "BSB": 118
+            }
+        },
+        "IGU": {
+            "name": "IGU",
+            "entry": {},
+            "exit": {
+                "GRU": 116
+            }
+        },
+        "RAO": {
+            "name": "RAO",
+            "entry": {},
+            "exit": {
+                "BSB": 98,
+                "GIG": 93,
+                "GRU": 79
+            }
+        },
+        "MGF": {
+            "name": "MGF",
+            "entry": {},
+            "exit": {
+                "GRU": 97
+            }
+        },
+        "UDI": {
+            "name": "UDI",
+            "entry": {},
+            "exit": {
+                "GRU": 95
+            }
+        },
+        "PLU": {
+            "name": "PLU",
+            "entry": {},
+            "exit": {
+                "GRU": 91
+            }
+        },
+        "LDB": {
+            "name": "LDB",
+            "entry": {},
+            "exit": {
+                "GRU": 91
+            }
+        }
+    }
+}

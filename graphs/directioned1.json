@@ -1,0 +1,46 @@
+{
+    "order": 5,
+    "size": 4,
+    "isDirectioned": true,
+    "isValored": true,
+    "graph": {
+        "a": {
+            "name": "a",
+            "entry": {},
+            "exit": {
+                "b": 2,
+                "d": 4,
+                "c": 3
+            }
+        },
+        "b": {
+            "name": "b",
+            "entry": {
+                "a": 2
+            },
+            "exit": {
+                "d": 5
+            }
+        },
+        "c": {
+            "name": "c",
+            "entry": {
+                "a": 3
+            },
+            "exit": {}
+        },
+        "d": {
+            "name": "d",
+            "entry": {
+                "a": 4,
+                "b": 5
+            },
+            "exit": {}
+        },
+        "e": {
+            "name": "e",
+            "entry": {},
+            "exit": {}
+        }
+    }
+}

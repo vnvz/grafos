@@ -1,0 +1,22 @@
+{
+    "order": 2,
+    "size": 1,
+    "isDirectioned": true,
+    "isValored": true,
+    "graph": {
+        "a": {
+            "name": "a",
+            "entry": {},
+            "exit": {
+                "b": 2
+            }
+        },
+        "b": {
+            "name": "b",
+            "entry": {
+                "a": 2
+            },
+            "exit": {}
+        }
+    }
+}

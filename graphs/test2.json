@@ -1,0 +1,18 @@
+{
+    "order": 2,
+    "size": 0,
+    "isDirectioned": false,
+    "isValored": true,
+    "graph": {
+        "a": {
+            "name": "a",
+            "entry": {},
+            "exit": {}
+        },
+        "b": {
+            "name": "b",
+            "entry": {},
+            "exit": {}
+        }
+    }
+}
